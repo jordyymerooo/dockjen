@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        nodejs 'Node20' // Configura una instalación de Node.js en Jenkins
-        docker 'Docketool'  // Corrección: el identificador correcto es 'docker'
+        nodejs 'Node20' 
+        dockerTool 'Docketool'  // Regresamos al identificador correcto para tu Jenkins
     }
 
     stages {
