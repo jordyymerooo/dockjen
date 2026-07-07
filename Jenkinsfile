@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs 'Node20' 
+        nodejs 'Node18' 
         dockerTool 'Docketool'  // Regresamos al identificador correcto para tu Jenkins
     }
 
