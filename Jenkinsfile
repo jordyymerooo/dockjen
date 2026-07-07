@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     tools {
-        nodejs 'Node18' 
-        dockerTool 'Docketool'  // Regresamos al identificador correcto para tu Jenkins
+        nodejs "Node22" 
+        dockerTool 'Dockertool' 
     }
 
     stages {
